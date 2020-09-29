@@ -1,0 +1,12 @@
+!!omap
+- category: Modeling
+- comment: ''
+- extension: .hip
+- basePath: /HWK/ERAU/Active Courses/SIM 450 Game Sys IV Mult/SIM_450_M02.DV01_BR/Assets/Houdini/01_Workflow/Assets/Terrain/Scenefiles/mod/Modeling
+- filename: /HWK/ERAU/Active Courses/SIM 450 Game Sys IV Mult/SIM_450_M02.DV01_BR/Assets/Houdini/01_Workflow/Assets/Terrain/Scenefiles/mod/Modeling/Terrain_mod_Modeling_v0001__RMX_.hip
+- username: Remex Remex
+- step: mod
+- version: v0001
+- user: RMX
+- entity: asset
+- entityName: Terrain

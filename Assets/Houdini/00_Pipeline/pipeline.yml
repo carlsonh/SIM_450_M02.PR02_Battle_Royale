@@ -1,0 +1,138 @@
+!!omap
+- globals: !!omap
+  - project_name: Houdini
+  - prism_version: v1.3.0.16
+  - pipeline_steps: !!omap
+    - cpt: Concept
+    - mod: Modeling
+    - ldv: Lookdev
+    - rig: Rigging
+    - lay: Layout
+    - anm: Animation
+    - fx: Effects
+    - cfx: CharacterEffects
+    - lgt: Lighting
+    - cmp: Compositing
+    - edt: Editing
+    - dev: Development
+  - uselocalfiles: false
+  - checkframerange: true
+  - forcefps: false
+  - fps: 24
+  - forceversions: false
+  - filenameseparator: _
+  - sequenceseparator: '-'
+  - forceResolution: false
+  - resolution:
+    - 1920
+    - 1080
+  - resolutionPresets:
+    - 3840x2160
+    - 1920x1080
+    - 1280x720
+    - 960x540
+    - 640x360
+  - versionPadding: 4
+  - framePadding: 4
+  - versionFormat: v#
+  - track_dependencies: true
+- paths: !!omap
+  - pipeline: 00_Pipeline
+  - scenes: 01_Workflow
+  - assets: 02_Assets
+- defaultpasses: !!omap
+  - houdini_3delight:
+    - - Ci
+    - - Diffuse
+    - - Subsurface-scattering
+    - - Reflection
+    - - Refraction
+    - - Volume scattering
+    - - Incandescence
+    - - Z (depth)
+    - - Ci
+    - - Camera space position
+    - - Camera space normal
+  - houdini_vray:
+    - - Diffuse
+      - diffuse
+    - - Reflection
+      - reflection
+    - - Refraction
+      - refraction
+    - - Self Illumination
+      - illum
+    - - Shadow
+      - shadow
+    - - Specular
+      - specular
+    - - GI
+      - gi
+    - - SSS
+      - sss
+  - houdini_mantra:
+    - - Color
+      - Cf
+    - - Opacity
+      - Of
+    - - Alpha
+      - Af
+    - - Position
+      - P
+    - - Position-Z
+      - Pz
+    - - Normal
+      - N
+    - - Emission
+      - Ce
+  - houdini_redshift:
+    - - Cryptomatte
+      - cryptomatte
+    - - Z Depth
+      - Z
+    - - Puzzle Matte
+      - puzzleMatte
+    - - Diffuse Lighting
+      - diffuse
+    - - Reflections
+      - reflection
+    - - Refractions
+      - refraction
+    - - Global Illumination
+      - gi
+    - - Shadows
+      - shadows
+    - - Normals
+      - N
+  - houdini_arnold:
+    - - direct
+      - DirectLight
+    - - indirect
+      - IndirectLight
+    - - emission
+      - Emission
+    - - diffuse
+      - DiffuseReflection
+    - - specular
+      - SpecularReflection
+    - - transmission
+      - SpecularTransmisson
+    - - sss
+      - SSS
+    - - volume
+      - Volume
+    - - albedo
+      - Albedo
+    - - direct
+      - Beauty
+    - - Z
+      - Depth
+    - - N
+      - Normal
+    - - crypto_asset
+      - CryptoAsset
+    - - crypto_object
+      - CryptoObject
+    - - crypto_material
+      - CryptoMaterial
+- export_paths: []

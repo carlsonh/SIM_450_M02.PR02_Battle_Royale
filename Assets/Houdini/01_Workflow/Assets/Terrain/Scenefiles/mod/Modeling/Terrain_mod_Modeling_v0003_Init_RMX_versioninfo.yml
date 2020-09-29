@@ -1,0 +1,20 @@
+!!omap
+- category: Modeling
+- comment: Init
+- extension: .hiplc
+- basePath: /HWK/ERAU/Active Courses/SIM 450 Game Sys IV Mult/SIM_450_M02.DV01_BR/Assets/Houdini/01_Workflow/Assets/Terrain/Scenefiles/mod/Modeling
+- filename: /HWK/ERAU/Active Courses/SIM 450 Game Sys IV Mult/SIM_450_M02.DV01_BR/Assets/Houdini/01_Workflow/Assets/Terrain/Scenefiles/mod/Modeling/Terrain_mod_Modeling_v0003_Init_RMX_.hiplc
+- username: Remex Remex
+- step: mod
+- version: v0003
+- user: RMX
+- entity: asset
+- entityName: Terrain
+- information: !!omap
+  - Version: v0003
+  - Creation date: 13.09.20 15:57:03
+  - filename: Terrain_mod_Modeling_v0003_Init_RMX_.hiplc
+  - Dependencies: []
+  - Created by: Remex Remex
+  - FPS: 24.0
+  - External files: []
